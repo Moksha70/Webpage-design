@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3e5d8;
+    font-family: "Young Serif",serif;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.content h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2f2f2f;
+}
+
+.content p{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.prep_container{
+    background: #fff7fc;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.prep_container h1{
+    color: #642e46;
+    margin-top: 20px;
+}
+
+.preparation_time ul {
+   margin-left: 30px;
+   padding: 10px;
+   font-size: 16px;
+   color: #555;
+   line-height: 1.6;
+}
+
+.preparation_time ul span{
+    color: #5f5554;
+    font-weight: bold;
+}
+
+.ingredients h1{
+    color: #8c453f;
+    margin-top: 20px;
+}
+
+.ingredients ul{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.instructions h1{
+    color: #7d4c43;
+    margin-top: 20px;
+}
+
+.instructions ul{
+    list-style-type: decimal;
+    list-style-position: outside;
+    color: #605f5b;
+    padding: 20px;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;   
+}
+
+.instructions li::marker {
+  color: #7d4c43;  
+  font-weight: bold;
+}
+
+.instructions ul span{
+    color: #504b47;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.nutrition {
+  margin-top: 40px;
+  padding: 20px;
+  font-family: "Young Serif", serif;
+}
+
+.nutrition h1 {
+  color: #854632;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.nutrition p {
+  color: #5f564d;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.nutrition-table .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #e4ded8;
+}
+
+.nutrition-table .row:last-child {
+  border-bottom: none;
+}
+
+.nutrition-table .label {
+  color: #5f564d;
+  font-size: 16px;
+}
+
+.nutrition-table .value {
+  color: #854632;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+}
